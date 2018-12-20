@@ -1,7 +1,9 @@
 # GroundMotionRecordClassifier
 Bellagamba et al. (2019) A neural network for automated quality screening of ground motion records from small magnitude earthquakes
 
-Dependencies: python 3.X, numpy, os, csv
+Data is provided in the 'data' folder in the form of a csv file and a SQLite database containing the quality metrics and IM used in paper. Note that both files provide the same data
+
+Dependencies of the classifiers: python 3.X, numpy, os, csv
 
 Perform classification of quality ground motion records as described in Bellagamba et al. (2019) A neural network for automated quality screening of ground motion records from small magnitude earthquakes. Results are stored in a result folder in the same way the data is given by appending the scores yhat_low and yhat_high for resemblance to low and high quality ground motion records, respectively. 
 
