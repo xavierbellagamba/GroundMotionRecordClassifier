@@ -1,7 +1,9 @@
 # GroundMotionRecordClassifier
 Bellagamba et al. (2019) A neural network for automated quality screening of ground motion records from small magnitude earthquakes
 
-Data is provided in the 'data' folder in the form of a csv file and a SQLite database containing the quality metrics and IM used in paper. Note that both files provide the same data
+Data is provided in the 'data' folder in the form of a csv file and a SQLite database containing the quality metrics and IM used in paper. Note that both files provide the same data.
+
+Note also that a full automation process system is provided in the zip file, but is only valid for GeoNet (NZ) V1A format and has more dependencies that the models alone provided in this git repo.
 
 Dependencies of the classifiers: python 3.X, numpy, os, csv
 
